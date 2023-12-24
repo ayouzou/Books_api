@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import Loading from "../Loader/Loader";
 import coverImg from "../../images/cover_not_found.jpg";
 import "./Bookdetails.css";
-import {FaArrowLeft} from "react-icons/fa";
+
 import { useNavigate } from 'react-router-dom';
 import Booklist from './../BookList/Booklist';
 
@@ -53,7 +53,7 @@ const BookDetails = () => {
     <section className='book-details'>
       <div className='container'>
         <button type='button' className='flex flex-c back-btn' onClick={() => navigate("/book")}>
-          <FaArrowLeft size = {22} />
+         left
           <span className='fs-18 fw-6'>Go Back</span>
         </button>
 
