@@ -53,7 +53,7 @@ const BookDetails = () => {
     <section className='book-details'>
       <div className='container'>
         <button type='button' className='flex flex-c back-btn' onClick={() => navigate("/book")}>
-         left
+   
           <span className='fs-18 fw-6'>Go Back</span>
         </button>
 
